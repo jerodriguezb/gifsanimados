@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GifGridItem = (img) => {
+const GifGridItem = ({img}) => {
 
     const {title, url}=img
     return (
