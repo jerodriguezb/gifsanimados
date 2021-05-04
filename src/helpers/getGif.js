@@ -4,13 +4,15 @@ import axios from "axios"
 export const getGifs=async (category)=> {
 
     const apikey='yGsEUd2oFkyppcVxZBZ5H2aB7uQLZRIf'
-    const url=`https://api.giphy.com/v1/gifs/search?api_key=${apikey}&q={category}&limit=10`
+    const url=`https://api.giphy.com/v1/gifs/search?api_key=${apikey}&q=${category}&limit=10`
 
     const resp= await axios(url)
     const {data}=resp.data
-     // console.log(resp.data)
+    console.log(Object.keys(data).length)
+  
     const gifs=data.map(img=>{
         //console.log(data)
+
         return {
             id:img.id,
             title:img.title,

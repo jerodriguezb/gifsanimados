@@ -9,7 +9,7 @@ const loading = () => {
         <div id="fountainTextG_3" className="fountainTextG">r</div>
         <div id="fountainTextG_4" className="fountainTextG">g</div>
         <div id="fountainTextG_5" className="fountainTextG">a</div>
-        <div id="fountainTextG_6" clasName="fountainTextG">n</div>
+        <div id="fountainTextG_6" className="fountainTextG">n</div>
         <div id="fountainTextG_7" className="fountainTextG">d</div>
         <div id="fountainTextG_8" className="fountainTextG">o</div>
         <div id="fountainTextG_9" className="fountainTextG">.</div>

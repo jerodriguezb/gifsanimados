@@ -30,7 +30,7 @@ const GifGrid = ({category}) => {
 
 
     // const apikey='yGsEUd2oFkyppcVxZBZ5H2aB7uQLZRIf'
-    // const url=`https://api.giphy.com/v1/gifs/search?api_key=${apikey}&q={category}&limit=10
+    // const url=`https://api.giphy.com/v1/gifs/search?api_key=${apikey}&q=${category}&limit=10
     // `
     // const getGifs=async ()=> {
 
